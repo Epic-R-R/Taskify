@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Todo } from "../model";
 import { AiFillEdit, AiFillDelete } from "react-icons";
-import { MdDone } from "react-icons/md";
+import { MdDone } from "react-icons";
 import { Draggable } from "react-beautiful-dnd";
 
 interface Props {
